@@ -12,7 +12,7 @@ namespace POSApplication
 {
     public static class DependencyInjector
     {
-        //This class is used for dependencyinjection
+        //This class is used for dependencyinjection and returns dependent object
         private static readonly UnityContainer unityContainer = new UnityContainer();
         public static IUnityContainer Register()
         {
